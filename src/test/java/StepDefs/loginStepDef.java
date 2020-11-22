@@ -17,7 +17,7 @@ public class loginStepDef {
     @Given("User should be able to login page")
     public void user_should_be_able_to_login_page() {
 
-        Driver.get().get(ConfigurationReader.get("url"));
+        driver.get(ConfigurationReader.get("url"));
     }
 
     @When("user login as {string}")
